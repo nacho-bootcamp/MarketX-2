@@ -1,0 +1,180 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+
+	margin: 30px;
+
+	padding: 10px;
+
+	background-color:  #eeee;
+	border-radius: 10px;
+
+	height: 70vh;
+
+	overflow: hidden;
+}
+
+.link {
+	margin-top: 2%;
+	margin-left: 2.5%;
+	padding: 3px 10px;
+
+
+	text-decoration: none;
+
+	border: 1px solid black;
+	border-radius: 5px;
+
+	width: fit-content;
+
+	background-color: #eeee;
+}
+
+.link2 {
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+.innerContainer {
+	display: flex;
+}
+
+.imageContainer {
+	display: flex;
+	align-items: center;
+
+	width: 50%;
+
+
+	padding: none;
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	width: auto;
+	height: 75%;
+	transition: transform 0.2s ease-in-out;
+	margin-top: 5%;
+
+	overflow: hidden;
+
+}
+
+.image:hover {
+	transform: scale(1.2);
+}
+
+.detailsContainer {
+	flex: 1;
+
+	height: 99%;
+
+	padding: 10px 30px;
+	padding-top: 8%;
+
+	border-left: 3px solid black;
+	/* border: 3px solid black; */
+}
+
+.title {
+	font-weight: bold;
+	font-size: 20px;
+	border-bottom: 1px solid;
+}
+
+.price {
+	display: flex;
+	justify-content: flex-start;
+	font-size: 26px;
+}
+
+.categoryC {
+	display: flex;
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 5px;
+	/* border: 1px solid; */
+}
+
+.btnCategoria {
+	/* border: 1px solid black; */
+
+	display: flex;
+	justify-content: center;
+
+	width: fit-content;
+}
+
+.stock {
+	display: flex;
+	justify-content: flex-start;
+	font-weight: bold;
+	/* border: 1px solid; */
+}
+
+.descriptionTitle {
+	color: black;
+	text-align: center;
+	/* border: 1px solid; */
+
+}
+
+.description {
+	color: gray;
+}
+
+.contenedorCart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 50px;
+}
+
+.addButton {
+	background-color: blue;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3px 6px;
+
+	font-weight: bold;
+}
+
+.contenedorRating{
+	/* border: 1px solid black; */
+	display: flex;
+	width: fit-content;
+	align-items: center;
+	
+}
+
+.promedio{
+	/* border: 1px solid black; */
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+	margin: none;
+	margin-right: 5px;
+
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+.calificaciones{
+	/* border: 1px solid black; */
+	display: flex;
+	margin-left: 4.7em;
+	/* width: fit-content; */
+	height: auto;
+
+	position: relative;
+	bottom: 20px;
+}
